@@ -23,9 +23,9 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] List anything else that you can get done to improve the app functionality!
-    -Added UI improvements (fonts, colors)
-    -Customized segment control
-    -Added default placeholder to bill amount text field
+    - Added UI improvements (fonts, colors)
+    - Customized segment control
+    - Added default placeholder to bill amount text field
 
 ## Video Walkthrough
 
@@ -37,8 +37,9 @@ GIF created with [EzGif](https://ezgif.com).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-    - Challeging  to use Formatter in textbox feild to format currency  
+Describe any challenges encountered while building the app:
+
+Was not able to implement currency formatting in textbox 
 
 ## License
 
