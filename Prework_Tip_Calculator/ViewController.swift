@@ -16,6 +16,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.title = "Tip Calculator"
+        
+        tipControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.black, NSAttributedString.Key.font: UIFont(name: "Futura", size: 20) as Any], for: .selected)
+        tipControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.black, NSAttributedString.Key.font: UIFont(name: "Futura", size: 20) as Any], for: .highlighted)
+        tipControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: UIFont(name: "Futura", size: 20) as Any ], for: .normal)
+    
+        billAmountTextField.placeholder = "$0.00"
+        
+        
     }
 
     @IBAction func calculateTip(_ sender: Any) {
@@ -33,6 +43,11 @@ class ViewController: UIViewController {
         // Update Total Amount
         totalLabel.text = String(format: "$%.2f", total )
     }
+    @IBAction func billChanged(_ sender: Any) {
+        
+        self.calculateTip(self.tipControl as Any)
+    }
+    
     
 }
 

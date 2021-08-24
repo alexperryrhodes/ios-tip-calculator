@@ -1,17 +1,17 @@
-# Pre-work - *Name of App Here*
+# Pre-work - Tippy 2.0
 
-**Name of your app** is a tip calculator application for iOS.
+Tippy 2.0 is a tip calculator application for iOS.
 
 Submitted by: Alexandra Rhodes
 
-Time spent: 2 hours spent in total
+Time spent: 3 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ X] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+- [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+- [x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
 
 The following **optional** features are implemented:
 
@@ -22,23 +22,27 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
+    -Added UI improvements (fonts, colors)
+    -Customized segment control
+    -Added default placeholder to bill amount text field
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://i.imgur.com/Zi5W1pQ.gif)
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [EzGif](https://ezgif.com).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+    - Challeging  to use Formatter in textbox feild to format currency  
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2021 Alexandra Rhodes
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -51,3 +55,5 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+

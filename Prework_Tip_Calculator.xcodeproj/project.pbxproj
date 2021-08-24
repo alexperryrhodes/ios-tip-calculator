@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8592E1326D566B4001CB65B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8592E1226D566B4001CB65B /* UIView.swift */; };
 		A8B07B0126D47B79008E70D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B07B0026D47B79008E70D1 /* AppDelegate.swift */; };
 		A8B07B0326D47B79008E70D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B07B0226D47B79008E70D1 /* SceneDelegate.swift */; };
 		A8B07B0526D47B79008E70D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B07B0426D47B79008E70D1 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8592E1226D566B4001CB65B /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Prework_Tip_Calculator/UIView.swift; sourceTree = SOURCE_ROOT; };
 		A8B07AFD26D47B79008E70D1 /* Prework_Tip_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prework_Tip_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B07B0026D47B79008E70D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8B07B0226D47B79008E70D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		A8B07AFF26D47B79008E70D1 /* Prework_Tip_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A8592E1226D566B4001CB65B /* UIView.swift */,
 				A8B07B0026D47B79008E70D1 /* AppDelegate.swift */,
 				A8B07B0226D47B79008E70D1 /* SceneDelegate.swift */,
 				A8B07B0426D47B79008E70D1 /* ViewController.swift */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8592E1326D566B4001CB65B /* UIView.swift in Sources */,
 				A8B07B0526D47B79008E70D1 /* ViewController.swift in Sources */,
 				A8B07B0126D47B79008E70D1 /* AppDelegate.swift in Sources */,
 				A8B07B0326D47B79008E70D1 /* SceneDelegate.swift in Sources */,
